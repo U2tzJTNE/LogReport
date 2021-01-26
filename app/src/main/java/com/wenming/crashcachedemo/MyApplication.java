@@ -2,9 +2,9 @@ package com.wenming.crashcachedemo;
 
 import android.app.Application;
 
-import com.wenming.library.LogReport;
-import com.wenming.library.save.imp.CrashWriter;
-import com.wenming.library.upload.email.EmailReporter;
+import com.u2tzjtne.logreport.repoter.email.EmailReporter;
+import com.u2tzjtne.logrepoter.core.LogReport;
+import com.u2tzjtne.logrepoter.core.save.imp.CrashWriter;
 
 /**
  * Created by wenmingvs on 2016/7/4.

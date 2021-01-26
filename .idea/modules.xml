@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LogReport.iml" filepath="$PROJECT_DIR$/LogReport.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logreport/logreport.iml" filepath="$PROJECT_DIR$/logreport/logreport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogReport.iml" filepath="$PROJECT_DIR$/.idea/modules/LogReport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LogReport.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LogReport.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logreport/LogReport.logreport-core.iml" filepath="$PROJECT_DIR$/.idea/modules/logreport/LogReport.logreport-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logreport-email-repoter/LogReport.logreport-email-repoter.iml" filepath="$PROJECT_DIR$/.idea/modules/logreport-email-repoter/LogReport.logreport-email-repoter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logreport-okhttp-repoter/LogReport.logreport-http-repoter.iml" filepath="$PROJECT_DIR$/.idea/modules/logreport-okhttp-repoter/LogReport.logreport-http-repoter.iml" />
     </modules>
   </component>
 </project>

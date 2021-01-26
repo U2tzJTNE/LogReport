@@ -1,13 +1,14 @@
 package com.wenming.crashcachedemo;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.wenming.library.LogReport;
-import com.wenming.library.save.imp.LogWriter;
-import com.wenming.library.util.FileUtil;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.u2tzjtne.logrepoter.core.LogReport;
+import com.u2tzjtne.logrepoter.core.save.imp.LogWriter;
+import com.u2tzjtne.logrepoter.core.util.FileUtil;
 
 import java.io.File;
 
@@ -23,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setUpListener() {
-        Button button1 = (Button) findViewById(R.id.button1);
-        Button button2 = (Button) findViewById(R.id.button2);
-        Button button3 = (Button) findViewById(R.id.button3);
+        Button button1 = findViewById(R.id.button1);
+        Button button2 = findViewById(R.id.button2);
+        Button button3 = findViewById(R.id.button3);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
